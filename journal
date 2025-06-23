@@ -1,0 +1,18 @@
+Wednesday, May 21, 2025		Bremen, Germany		Jerónimo Gutiérrez Balanta
+
+Documentation for a project related with machines, humans and stars  
+Project Preparation / Living code \- Dead Machines / Master Project
+
+## Background
+
+In the Winter Semester 2024/25 I was interested in reflecting about digital labor and outsourcing through design, especially games, zines and publications to ignite reflections on workers. This idea took shape as the project *How to shit on your company,* that brought together a conceptual framework encompassing degrowth theories, anti capitalists analysis, and infrastructure theoretical approaches, with design and bold and funny zine and characters, to reflect about outsourcing infrastructures from companies like Amazon, the class from Andrea Sick and Victor Arteaga \- *Nature an Technology \-* and *Radical Machines* by Ralf Baecker really helped me to realize this goal and I found myself with this nice research question about human labor.
+
+From this topics and now in the summer semester 2025 going into project preparation class and also attending Living Code/Dead Machines class, I found myself interested again in the question of *labor,* but this time coming from conversations with my mom, friends, professors in relation with LLM (large language models), the boom of Ai agents, also the boom of all this Language and Media Generator tools like ChatGPT from OpenAi or Gemini by Google or Grok,you name it. The discussions I was proposing is the following, in some areas of our disciplines, of the fields, not in all the world, not in all context of course, but still, I put the common and cliche question on the table: How does the future look for us humans when it seems that in many ways the tools based on Ai are replacing our jobs? With this question I went to Ralf   
+Baecker’s Summer  Semester class “Living Code/Dead machines”, and there we did a dive into the history of computing and cybernetics, and explored different or alternative ways of computing that didn’t make it to history or that were forgotten by it. As this exploration can be seen as a critical approach to the use, history and form our daily life technology takes, I wanted to follow this idea of  critically thinking about technologie.
+
+*June 23, 2025*
+
+Today I have started experimenting with an ESP32 and a Led Matrix 16 x 16, after delaying for several weeks finally I go from imagining stuff to actually see if this works, so far so good things work fine but a lot of trial and error. Until now Monday 23 June I have done:
+
+- Soldered x1 8x8 matrix to connect the pins, download Arduino IDE and ESP32 libraries, as well as this [https://github.com/markruys/arduino-Max72xxPanel](https://github.com/markruys/arduino-Max72xxPanel), which is another library to control animations and test screens along with Adafruit DFX Library. Right now also I realized that I need new drivers to communicate with my ESP32 from my Mac so I am currently downloading the drivers based on the info from Gemini about the chip on my ESP32 CP2102, so I’m installing the Silicon Labs CP210x drivers.  
+- So after some hours I was finally able to make the circuit work, It happened that 
