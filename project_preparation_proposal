@@ -1,0 +1,80 @@
+Bremen, Germany		Jerónimo Gutiérrez Balanta
+
+Documentation for a project related with machines, weather, humans and stars  
+
+# Project Preparation Proposal: Windcatchers
+
+Jerónimo Gutiérrez Balanta
+
+**State of the project**
+On-going (Research, installation, wearable object)
+
+** Keywords**
+Wind / Wearable Sculpture / Data Poetics
+
+**Short Description** 
+**Windcatchers** is an on-going research using screens and installation to visualize real-time wind data from a specific location. Using an ESP32 microcontroller and an LED matrix, the device translates wind speed and direction into a poetic exploration on movement, the screen tells the user how much time it would take for them to get home if the were relying on the wind. I aimed to explore topics of machine permanence, contrast between the digital and cardboard and in a way migration. The project acts as a "machine for longing," questioning how technology can mediate our relationship with the environment and our sense of place in the world.
+
+---
+
+### **Background**
+
+My work this year began by exploring **digital labor and outsourcing** in the Winter Semester 2024/25 class *Radical Machines*. This led to the project *How to shit on your company*, a zine that used degrowth theory and anti-capitalist analysis to critique the hidden infrastructures of companies like Amazon. This focus on labor naturally led me to questions about automation and the future of work in an age of AI.
+
+Coming into the Summer Semester 2025, conversations with my mother, friends, and professors about the boom of LLMs like ChatGPT and Gemini sharpened this interest. The common question arose: **What does the future look like when AI seems to be replacing our jobs?** I brought this inquiry to Ralf Baecker’s class, *Living Code/Dead Machines*, where we explored the history of cybernetics and alternative forms of computing. This critical approach to technology inspired me to move from critiquing labor systems to poetically questioning our relationship with the vast, non-human systems around us—like the sky and the wind.
+
+---
+
+### **Process**
+
+My process has been a journey of conceptual evolution and hands-on experimentation, moving from the cosmos to the atmosphere.
+
+#### **Initial Concept: Stars and Machine Consciousness**
+Initially, the project, then called *Mensajes* (Messages), was conceived as an installation of three interconnected devices. Each would represent a different era of sky observation:
+1.  **Ancient:** A device holding information on creation myths tied to the stars.
+2.  **Modern:** A device focused on tools like the astrolabe for navigation.
+3.  **Future:** A speculative device that "hallucinates" a sky no longer visible from Earth, using data from the other two.
+
+This idea was heavily influenced by sci-fi like the manga *Blame!* and philosophical questions about synthetic data, machine consciousness, and human impermanence. I wondered if machines, trained on their own data, would dream of a universe they could no longer see.
+
+#### **Technical Experiments and a Pivot to Wind**
+On June 23, 2025, I began prototyping with an `ESP32` and a `16x16 LED matrix`. After soldering the components and setting up the Arduino IDE with the necessary libraries (like `Max72xxPanel` and `Adafruit GFX`), I successfully displayed animations of stars and constellations.
+
+However, when I presented these early experiments in class, I sensed some confusion from my professor and colleagues. The connection between the concept and the visual output felt weak. This feedback was crucial. Recalling an old idea about working with the wind in Bremen, I decided to pivot. I began crafting code to visualize real-time wind data from my exact location in Bremen, using a free API from **Open-Meteo**. The data felt more immediate, personal, and connected to my physical environment. The prototype is now stable, updating every 10 seconds to show wind speed and direction.
+
+#### **Developing the Physical Form**
+With the concept now grounded in wind, my focus shifted to the physical form. I started sketching with cardboard, imagining sculptural objects that combine the fragility of a shipping box with the digital aesthetic of a train station display. This led me to think about the project as a **wearable device or a portable sculpture**—a personal object that catches and interprets an invisible force.
+
+Inspiration for the form now comes from diverse sources, including the geodesic domes of The North Face and the ethereal, network-like sculptures of artist **Tomás Saraceno**. On July 8, I wrote in my journal about creating *"Máquinas para extrañar, o para aprender amar, para calcular distancias a un amor, a un hogar o una tierra"* (Machines for longing, for learning to love, for calculating distances to a loved one, a home, or a land). This poetic goal is now at the heart of the project.
+
+---
+
+### **Comments**
+
+This project is ultimately a reflection on **connection and impermanence**. While it began with grand questions about AI, synthetic data, and post-capitalist futures, it has found its footing in a much more intimate space. I grounded the topic from the stars and this sci-fi high enginering devices to not only facilitate my research based on my tools, but also to open new doors around packages, soft materiales and wearables. Overall I feel that it was a good experimentation period that allows me to now formulate with certainty my next steps in the master towards the master project.
+The wind is a constant, invisible force that connects all places. By capturing and displaying it, the *Windcatcher* becomes a tool for contemplating distance. It asks: if I were to let myself be carried by the wind, how long would it take to get home? It’s a futile, poetic calculation, but it grounds the abstract data of meteorology in the deeply human emotion of longing.
+
+
+---
+
+### **References**
+
+Here are some of the key references that have inspired and informed this project, from technical resources to conceptual and artistic influences.
+
+**Articles & Academic Papers**
+* (2024). "How AI is helping astronomers study the universe." *PBS NewsHour*. Science. [Link](https://www.pbs.org/newshour/science/analysis-how-ai-is-helping-astronomers-study-the-universe)
+* SpringerLink. (2024). "On the emergence of an artificial creative intelligence." *Philosophy & Technology*. [Link](https://link.springer.com/article/10.1007/s13347-024-00744-w)
+* Weiner, N. (n.d.). "Cybernetics." *MIT ESD.83*. PDF. [Link](https://web.mit.edu/esd.83/www/notebook/Cybernetics.PDF)
+* Medium. (n.d.). "Navigating by the Stars." *Chronicles of Computation*. [Link](https://medium.com/chronicles-of-computation/navigating-the-stars-76a85ca1951e)
+
+**Artistic & Conceptual Inspiration**
+* Saraceno, T. (n.d.). "A message from Tomás Saraceno." *Art Basel*. [Link](https://www.artbasel.com/stories/a-message-from-tomas-saraceno)
+* Albrecht, K. (n.d.). *Artificial Worldviews*. Interactive Project. [Link](https://artificial-worldviews.kimalbrecht.com/)
+* Chen, I. (n.d.). *Emissaries*. Video Game/Art Installation.
+* Nihei, T. (1998-2003). *Blame!*. Manga Series.
+* The North Face Japan. (n.d.). *Geodesic Domes*. Product Design. [Link](https://www.thenorthface.jp/special/at_your_home/)
+
+**Technical & Data References**
+* Open-Meteo. (n.d.). *Free Weather Forecast API*. [Link](https://api.open-meteo.com/v1/forecast?latitude=53.0758&longitude=8.8072&hourly=wind_speed_180m,wind_direction_180m)
+* Wikipedia. (n.d.). "Common Crawl." *Wikipedia ES*. [Link](https://es.wikipedia.org/wiki/Common_Crawl)
+* NASA. (n.d.). "Message to the Future." *LAGEOS*. [Link](https://lageos.gsfc.nasa.gov/Design/Message_to_the_Future.html)
